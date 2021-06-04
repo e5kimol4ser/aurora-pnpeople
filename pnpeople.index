@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>Core</name>
-		<description>The content from the core rulebooks.</description>
-		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
-		<update version="0.2.5">
-			<file name="core.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core.index" />
+		<name>PnPeople</name>
+		<description>Our custom content</description>
+		<author>e5kimol4ser</author>
+		<update version="0.0.1">
+			<file name="pnpeople.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/pnpeople.index" />
 		</update>
 	</info>
 	<files>
-		<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/dungeon-masters-guide.index" />
+    <!-- elements -->
+		<file name="core.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core.index" />
+		<file name="supplements.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements.index" />
+		<file name="unearthed-arcana.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/unearthed-arcana.index" />
+		<file name="third-party.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party.index" />
+    
+    <!-- ranger revisited -->
+    <file name="20160912.xml" url="https://raw.githubusercontent.com/NickVendel/elements/revised-ranger-branch/unearthed-arcana/2016/20160912.xml" />
 	</files>
 </index>
