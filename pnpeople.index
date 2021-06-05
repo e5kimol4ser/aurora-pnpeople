@@ -4,7 +4,7 @@
 		<name>PnPeople</name>
 		<description>Our custom content</description>
 		<author>e5kimol4ser</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="pnpeople.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/pnpeople.index" />
 		</update>
 	</info>
@@ -16,6 +16,9 @@
 		<file name="third-party.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party.index" />
     
     <!-- ranger revisited -->
-    <file name="20160912.xml" url="https://raw.githubusercontent.com/NickVendel/elements/revised-ranger-branch/unearthed-arcana/2016/20160912.xml" />
+    	<file name="20160912.xml" url="https://raw.githubusercontent.com/NickVendel/elements/revised-ranger-branch/unearthed-arcana/2016/20160912.xml" />
+		
+	<!-- our subclasses Stuff-->
+		<file name="subclasses_Stuff.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/subclasses_Stuff/subclasses_Stuff.index" />
 	</files>
 </index>
