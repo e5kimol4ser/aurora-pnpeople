@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Björns Kopie vom Wildfire Druiden</name>
-		<update version="0.0.21">
+		<update version="0.0.22">
 			<file name="Circle-of-wild-Fire.xml" url="https://github.com/e5kimol4ser/aurora-pnpeople/blob/Test/subclasses_Stuff/Circle-of-wild-Fire.xml" />
 		</update>
 	</info>		
@@ -141,7 +141,7 @@ Once you gain access to one of these spells, you always have it prepared, and it
 	<!-- Companion -->
 	<element name="Wildfire Spirit" type="Companion" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_COMPANION_WILDFIRE_SPIRIT">
 		<supports>Wildfire Spirit</supports>
-		<requirements>BJOERNSTUFF_ARCHETYPE_CIRCLE_OF_WILDFIRE</requirements>
+		<requirements>BJOERNSTUFF_ARCHETYPE_DRUID_CIRCLE_OF_WILDFIRE</requirements>
 		<setters>
 			<set name="strength">10</set>
 			<set name="dexterity">14</set>
