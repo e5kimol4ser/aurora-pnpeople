@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Fairy (UA)</name>
+		<description>Fairy (UA) Race from Unearthed Arcana 77 - Folk of the Feywild by Hendrik</description>
+		<author url="http://dnd5e.wikidot.com/fairy-ua">DND 5th Edition</author>
+		<update version="0.0.2">
+			<file name="race-Fairy_(UA)xml" url="" /> <!--Muss noch angepasst werden-->
+		</update>
+	</info>
+
+	<element name="Fairy (UA)" type="Race" source="Unearthed Arcana 77 - Folk of the Feywild by Hendrik" id="ID_HH_FotF_RACE_Fairy">
+		<description>
+			<p>The Feywild is home to many fantastic peoples, including fairies. Fairies are a wee folk, but not nearly as much so as their pixie and sprite friends. Infused with the magic of the Feywild, fairies share a few commonalities with one another but can differ widely in appearance, behavior, and attitude. Many fairies have a special physical characteristic that sets them apart from other creatures of their kind. For your fairy, roll on the Fey Characteristic table or choose an option from it. The Feywild is a wild place, so come up with your own characteristic if none of these fit your character.</p>
+
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Increase one ability score by 2, and increase a different one by 1.</p>
+			<p class="indent"><b><i>Age. </i></b>Fairies have a life span of about a century.</p>
+			<p class="indent"><b><i>Alignment. </i></b>K.P</p>
+			<p class="indent"><b><i>Size. </i></b>Your size is Small.</p>
+			<p class="indent"><b><i>Speed. </i></b>Your base walking speed is 30 feet.</p>
+			<p class="indent"><b><i>Fairy Flight. </i></b>You have a flying speed equal to your walking speed and can hover. This flight is magical and does not require the use of your wings (if you have them).</p>
+			<p class="indent"><b><i>Fairy Magic. </i></b>You know the Druidcraft and Faerie Fire spells. You can cast Faerie Fire without expending a spell slot, and you must finish a long rest before you can cast it this way again. You can also cast this spell using any spell slots you have. Your spellcasting ability for these spells is your choice of Intelligence, Wisdom, or Charisma.</p>
+			<p class="indent"><b><i>Fey Passage. </i></b>You can squeeze through a space as narrow as 1 inch wide.</p>
+			<p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase, Fairy" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_CONSTITUTION|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA" />
+			<select type="Racial Trait" name="Ability Score Increase (Fairy)" supports="Fairy" number="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Racial Trait" id="ID_HH_FotF_RACIAL_TRAIT_FAIRY_FAIRY_FLIGHT" />
+			<grant type="Racial Trait" id="ID_HH_FotF_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC" />
+			<grant type="Racial Trait" id="ID_HH_FotF_RACIAL_TRAIT_FAIRY_FEY_PASSAGE" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<select type="Language" name="Language (Fairy)" supports="Standard||Exotic" number="1" />
+		</rules>
+	</element>
+	<element name="Fairy Flight" type="Racial Trait" source="Folk of the Feywild by Hendrik" id="ID_HH_FotF_RACIAL_TRAIT_FAIRY_FAIRY_FLIGHT">
+		<description>
+			<p>You have a flying speed equal to your walking speed and can hover. This flight is magical and does not require the use of your wings (if you have them).</p>
+		</description>
+		<sheet>
+			<description>You have a flying speed equal to your walking speed and can hover. This flight is magical and does not require the use of your wings (if you have them).</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:fly" value="30" bonus="base" />
+		</rules>
+	</element>
+	<element name="Fairy Magic" type="Racial Trait" source="Folk of the Feywild by Hendrik" id="ID_HH_FotF_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC">
+		<description>
+			<p>You know the Druidcraft and Faerie Fire spells. You can cast Faerie Fire without expending a spell slot, and you must finish a long rest before you can cast it this way again. You can also cast this spell using any spell slots you have. Your spellcasting ability for these spells is your choice of Intelligence, Wisdom, or Charisma.</p>
+		</description>
+		<sheet display="false">
+			<description>You know the Druidcraft and Faerie Fire spells. You can cast Faerie Fire without expending a spell slot, and you must finish a long rest before you can cast it this way again. You can also cast this spell using any spell slots you have. Your spellcasting ability for these spells is your choice of Intelligence, Wisdom, or Charisma.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_Druidcraft" />
+			<grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" />
+		</rules>
+	</element>
+	<element name="Fey Passage" type="Racial Trait" source="Folk of the Feywild by Hendrik" id="ID_HH_FotF_RACIAL_TRAIT_FAIRY_FEY_PASSAGE">
+		<description>
+			<p>You can squeeze through a space as narrow as 1 inch wide.</p>
+		</description>
+		<sheet>
+			<description>On your turn, if you have both hands free, you can increase your walking speed by 5 feet until the end of your turn.</description>
+		</sheet>
+	</element>
+
+<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Folk of the Feywild by Hendrik" id="ID_RACIAL_TRAIT_FAIRY_HH_STRENGTH">
+		<compendium display="false" />
+		<supports>Fairy</supports>
+		<description>
+			<p>Your Strength score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="strength" value="1"/>
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Folk of the Feywild by Hendrik" id="ID_RACIAL_TRAIT_FAIRY_HH_DEXTERITY">
+		<compendium display="false" />
+		<supports>Fairy</supports>
+		<description>
+			<p>Your Dexterity score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="dexterity" value="1"/>
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Folk of the Feywild by Hendrik" id="ID_RACIAL_TRAIT_FAIRY_HH_CONSTITUTION">
+		<compendium display="false" />
+		<supports>Fairy</supports>
+		<description>
+			<p>Your Constitution score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="constitution" value="1"/>
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Folk of the Feywild by Hendrik" id="ID_RACIAL_TRAIT_FAIRY_HH_INTELLIGENCE">
+		<compendium display="false" />
+		<supports>Fairy</supports>
+		<description>
+			<p>Your Intelligence score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="intelligence" value="1"/>
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Folk of the Feywild by Hendrik" id="ID_RACIAL_TRAIT_FAIRY_HH_WISDOM">
+		<compendium display="false" />
+		<supports>Fairy</supports>
+		<description>
+			<p>Your Wisdom score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="wisdom" value="1"/>
+		</rules>
+	</element>
+</elements>
