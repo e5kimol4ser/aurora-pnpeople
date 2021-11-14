@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.1">
+		<update version="0.0.11">
 			<file name="EyesOfTheWatcher.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/feats_Stuff/EyesOfTheWatcher.xml" />
 		</update>
 	</info>
@@ -17,10 +17,15 @@
 				<li>You perceive the original form of a celestial, elemental, fey, fiend, or undead within 30 feet that is transformed by magic.</li>
 			</ul>
 		</description>
-		<sheet usage="1/Short Rest">
-			<description>You can see invisible and ethereal celestials, elementals, fey, fiends, and undead within 30 feet</description>
-			<description>You have advantage on ability checks and saving throws against visual illusions within 30 feet. When you first observe an illusion from within 30 feet, you instantly recognize it for what it is and become immune to its effects if its save DC or ability check DC is less than or equal to 15 + your modifier on Intelligence (Investigation) checks.</description>
-			<description>You perceive the original form of a celestial, elemental, fey, fiend, or undead within 30 feet that is transformed by magic.</description>
+		<sheet>
+			<description>
+			<p># You can see invisible and ethereal celestials, elementals, fey, fiends, and undead within 30 feet. </p>
+
+			<p># You have advantage on ability checks and saving throws against visual illusions within 30 feet. When you first observe an illusion from within 30 feet, you instantly recognize it for what it is and become immune to its effects if its save DC or ability check DC is less than or equal to 15 + your modifier on Intelligence (Investigation) checks.  </p>
+
+			<p># You perceive the original form of a celestial, elemental, fey, fiend, or undead within 30 feet that is transformed by magic.  </p>
+			
+			</description>
 		</sheet>
 		<rules>
 			<stat name="wisdom" value="1" />
