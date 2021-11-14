@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>The Scrapper von Hendrik Hedke</name>
-        <update version="0.0.11">
+        <update version="0.0.2">
 
         <file name="rogue-The_Scrapper.xml" url="https://github.com/e5kimol4ser/aurora-pnpeople/blob/Test/subclasses_Stuff/rogue-The_Scrapper.xml" />
         <description>The Scrapper from Planet Apocalypse von Hendrik</description>
