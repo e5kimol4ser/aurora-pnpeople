@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="spellsDruidApocalypse.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/spells_Stuff/spellsDruidApocalypse.xml" />
+		</update>
+	</info>
+	
+	<element name="Deadly bark" type="Spell" source="Planet Apocalypse by Hendrik" id="ID_HH_PA_SPELL_DEADLY_BARK">
+		<supports>Bard,Druid,Sorcerer,Warlock,Wizard</supports>
+		<description>
+			<p>Make a ranged spell attack against a target you can see within range. On a hit, the target takes 3d10 thunder damage. The target and all creatures within 5 feet of the target must then make a Strength saving throw or be knocked prone, suffering 1d6 bludgeoning damage from the impact. <b>At Higher Levels</b> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 per slot level above 1st. If you use a spell slot of at least 3rd level, the spell doesn’t consume the material component.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school" >Evocation</set>
+			<set name="time">1 action</set>
+			<set name="range">90 feet</set>
+			<set name="duration">Instantaneous</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a gryllus’s brass head worth 25 gp or a philter’s brass head worth 100 gp, which the spell consumes; harvest DC 15 for 1, or for 2 from a philter</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Halo of spines" type="Spell" source="Planet Apocalypse by Hendrik" id="ID_HH_PA_SPELL_HALO_OF_SPINES">
+		<supports>Cleric,Druid,Ranger</supports>
+		<description>
+			<p>You place the crown upon the head of a willing creature. For the duration of the spell, the crown turns into an intangible halo that floats above the target’s head. The halo sheds dim light in a 5-foot radius. Whenever the target is dealt damage by another creature it can see, the target can use its reaction to inflict 1d4 piercing damage on the creature that dealt the damage. You can end the spell by using your action to dismiss it while you can see the target. The target can also end the spell by using its action to grab the halo from above its head. Optional Component. If you harvest a ring of spikes from a cacodaemon (worth 250 gp; harvest DC 10 for 1, 15 for 2, 20 for 3), use it as the spell’s material component, and allow the spell to consume it, you can choose cold, fire, or lightning when you cast the spell. The spell deals damage of that type instead of piercing. <b>At Higher Levels</b> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d4 for every slot level above 1st.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Abjuration</set>
+			<set name="time">1 action</set>
+			<set name="range">Touch</set>
+			<set name="duration">1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a crown of spines worth at least 25 gp</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+		<element name="Effortless march" type="Spell" source="Planet Apocalypse by Hendrik" id="ID_HH_AP_SPELL_EFFORTLESS_MARCH">
+		<supports>Cleric,Druid,Ranger</supports>
+		<description>
+			<p>You enhance up to six allies, allowing them to continue marching for days on end. Until this spell ends, they can’t gain levels of exhaustion from a forced march or from going without sleep. They can travel at a normal pace for the duration of this spell with no ill 35 Spells effects. This spell does not obviate the need for food or water, nor does it affect the requirements of a long rest.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 minute</set>
+			<set name="range">30 feet</set>
+			<set name="duration">24 hours</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a pair of well-worn boots</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">true</set>
+		</setters>
+	</element>
+		<element name="Track creature" type="Spell" source="Planet Apocalypse by Hendrik" id="ID_HH_AP_SPELL_TRACK_CREATURE">
+		<supports>Bard,Cleric,Druid,Ranger,Wizard</supports>
+		<description>
+			<p>You choose a creature you can see within range. For the duration, you can use a bonus action to know how far that creature is from you and in what direction until the start of your next turn. While you know its location, it can’t hide from you, you don’t have disadvantage on attack rolls against the target for being unable to see it, and it likewise does not gain advantage on attack rolls to hit you as a result of being unseen by you. While the target is on to another plane of existence, this spell can tell you only which plane it is on. <b>At Higher Levels</b> When you cast this spell using a spell slot of 3rd level or higher, the duration is 8 hours.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Divination</set>
+			<set name="time">1 action</set>
+			<set name="range">90 feet</set>
+			<set name="duration">1 hour</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">true</set>
+		</setters>
+	</element>
+		<element name="Purify grounds" type="Spell" source="Planet Apocalypse by Hendrik" id="ID_HH_AP_SPELL_PURIFY_GROUNDS">
+		<supports>Druid</supports>
+		<description>
+			<p>When you cast this spell, you remember everything you've ever read or heard in the past. This grants you a +10 bonus when making Intelligence checks for the duration.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">5</set>
+			<set name="school">Abjuration</set>
+			<set name="time">24 hours</set>
+			<set name="range">Touch</set>
+			<set name="duration">Instantaneous</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">herbs, oils, and incense worth 500 gp, which the spell consumes)</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+		<element name="Sun sphere" type="Spell" source="Planet Apocalypse by Hendrik" id="ID_HH_AP_SPELL_SUN_SPHERE">
+		<supports>Cleric,Druid,Sorcerer</supports>
+		<description>
+			<p>A 10-foot-radius sphere of intangible light that blazes like the sun appears centered on any point you can see within range. It lasts for the duration. The center of the sphere sheds bright light in a 60-foot radius and dim light for an additional 60 feet. This light is sunlight. The area inside the sphere is heavily obscured by the extraordinarily bright light. Each creature that enters the sphere for the first time on a turn (including when you cast the spell or move the sphere through its space) or that ends its turn there must make a Constitution saving throw. On a failed saving throw, it takes 2d6 fire damage and 2d6 radiant damage and is blinded for the duration. On a successful saving throw, it takes half as much damage. At the end of each blinded creature’s turn, it makes a new saving throw, ending the blinded condition on itself on a success. No creature can be affected by the sphere in this way more than once a turn. As an action, you can move the sphere up to 30 feet in any direction that does not cause its center to pass through a solid object. <b>At Higher Levels</b> When you cast this spell using a spell slot of 6th level or higher, the fire damage and radiant damage each increases by 1d6 per slot level above 5th.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">5</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="range">150 feet</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+</elements>
