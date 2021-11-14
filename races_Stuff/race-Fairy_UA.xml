@@ -5,7 +5,7 @@
 		<description>Fairy UA Race from Unearthed Arcana 77 - Folk of the Feywild by Hendrik</description>
 		<author url="http://dnd5e.wikidot.com/fairy-ua">DND 5th Edition</author>
 		<update version="0.0.3">
-			<file name="race-Fairy_UA.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/races_Stuff/races-Fairy_UA.xml" /> <!--Muss noch angepasst werden-->
+			<file name="race-Fairy_UA.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/races_Stuff/race-Fairy_UA.xml" /> <!--Muss noch angepasst werden-->
 		</update>
 	</info>
 
