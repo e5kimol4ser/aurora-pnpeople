@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>The Scrapper von Hendrik Hedke</name>
-        <update version="0.0.1">
+        <update version="0.0.11">
 
         <file name="rogue-The_Scrapper.xml" url="https://github.com/e5kimol4ser/aurora-pnpeople/blob/Test/subclasses_Stuff/rogue-The_Scrapper.xml" />
         <description>The Scrapper from Planet Apocalypse von Hendrik</description>
@@ -55,7 +55,7 @@
         </description>
         <sheet display="false">
             <description>
-            <p>Starting at 3rd level, you gain the ability to spend 1 minute to use alchemist’s supplies to create a piece of temporary adventuring gear from the following list that aids you in combat. Once you use this feature a number of times equal to your rogue level, you can’t use it again until you finish a long rest. You always apply your proficiency bonus to attack rolls with adventuring gear, including acid and alchemist’s fire.<p>
+            <p>Starting at 3rd level, you gain the ability to spend 1 minute to use alchemist’s supplies to create a piece of temporary adventuring gear from the following list that aids you in combat. Once you use this feature a number of times equal to your rogue level, you can’t use it again until you finish a long rest. You always apply your proficiency bonus to attack rolls with adventuring gear, including acid and alchemist’s fire.</p>
             <ul>
                 <li><b>Acid</b> You create a vial of temporary acid. It evaporates into harmless gas after 8 hours. The acid damage it  deals on a hit increases to 3d6 at 5th level, 4d6 at 11th level, and 5d6 at 17th level.</li>
                 <li><b>Alchemist’s Fire</b> You create a vial of temporary alchemist’s fire. The save DC is 8 + your proficiency bonus + your  Intelligence modifier (minimum 10). The fire damage increases to 2d4 at 5th level, 3d4 at 11th level,  and 4d4 at 17th level. It congeals into harmless crust after 8 hours.</li>
