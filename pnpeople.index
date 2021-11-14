@@ -4,7 +4,7 @@
 		<name>PnPeople</name>
 		<description>Our custom content</description>
 		<author>e5kimol4ser</author>
-		<update version="0.0.3">
+		<update version="0.0.31">
 			<file name="pnpeople.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/pnpeople.index" />
 		</update>
 	</info>
