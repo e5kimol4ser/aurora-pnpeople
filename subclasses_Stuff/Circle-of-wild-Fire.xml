@@ -2,12 +2,12 @@
 <elements>
 	<info>
 		<name>Björns Kopie vom Wildfire Druiden</name>
-		<update version="0.0.22">
+		<update version="0.0.23">
 			<file name="Circle-of-wild-Fire.xml" url="https://github.com/e5kimol4ser/aurora-pnpeople/blob/Test/subclasses_Stuff/Circle-of-wild-Fire.xml" />
 		</update>
 	</info>		
 		
-	<element name="Circle of Wildfire" type="Archetype" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_DRUID_CIRCLE_OF_WILDFIRE">
+	<element name="Circle of Wildfire Offi" type="Archetype" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_CIRCLE_OF_WILDFIRE">
 		<supports>Druid Circle</supports>
 		<description>
 			<p>Druids within the Circle of Wildfire understand that destruction is sometimes the precursor of creation, such as when a forest fire promotes later growth. These druids bond with a primal spirit that harbors both destructive and creative power, allowing the druids to create controlled flames that burn away one thing but give life to another.</p>
@@ -99,7 +99,8 @@ Once you gain access to one of these spells, you always have it prepared, and it
 			The wildfire spirit manifests for 1 hour, until it is reduced to 0 hit points, or until you use your Wild Shape again.</description>
 		</sheet>
 		<rules>
-			<select type="Companion" name="Wildfire Spirit" supports="Wildfire Spirit" default="BJOERNSTUFF_ARCHETYPE_COMPANION_WILDFIRE_SPIRIT_SPIRIT" />
+		<!--	<select type="Companion" name=" Wildfire Spirit" supports=" Wildfire Spirit" default="BJOERNSTUFF_ARCHETYPE_COMPANION_WILDFIRE_SPIRIT" />-->
+		<select type="Companion" name="new Wildfire Spirit" supports="new Wildfire Spirit" default="BJOERNSTUFF_ARCHETYPE_COMPANION_WILDFIRE_SPIRIT" />
 		</rules>
 	</element>
 	<element name="Enhanced Bond" type="Archetype Feature" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_FEATURE_WILDFIRE_ENHANCED_BOND">
@@ -139,9 +140,10 @@ Once you gain access to one of these spells, you always have it prepared, and it
 	</element>
 
 	<!-- Companion -->
-	<element name="Wildfire Spirit" type="Companion" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_COMPANION_WILDFIRE_SPIRIT">
-		<supports>Wildfire Spirit</supports>
-		<requirements>BJOERNSTUFF_ARCHETYPE_DRUID_CIRCLE_OF_WILDFIRE</requirements>
+	<element name="new Wildfire Spirit" type="Companion" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_COMPANION_WILDFIRE_SPIRIT">
+		<supports>new Wildfire Spirit</supports>
+		<!--<requirements>BJOERNSTUFF_ARCHETYPE_CIRCLE_OF_WILDFIRE</requirements>-->
+		
 		<setters>
 			<set name="strength">10</set>
 			<set name="dexterity">14</set>
@@ -158,11 +160,13 @@ Once you gain access to one of these spells, you always have it prepared, and it
 			<set name="type">Elemental</set>
 			<set name="size">Small</set>
 			<set name="senses">darkvision 60 ft., passive Perception 12</set>
-			<set name="languages">understands the languages you speak</set>
 			<set name="alignment">any chaotic alignment</set>
 			<set name="challenge">1/4</set>
-			<set name="traits">BJOERNSTUFF_ARCHETYPE_COMPANION_TRAIT_WILDFIRE_SPIRIT_SOUL_BOND</set>
-			<set name="actions">BJOERNSTUFF_ARCHETYPE_COMPANION_ACTION__WILDFIRE_SPIRIT_FLAME_SEED,BJOERNSTUFF_ARCHETYPE_COMPANION_ACTION_WILDFIRE_SPIRIT_FIERY_TELEPORTATION</set>
+			<set name="saves"></set>
+			<set name="traits"></set>
+			<set name="skills"></set>
+			<set name="actions">BJOERNSTUFF_ARCHETYPE_COMPANION_ACTION_WILDFIRE_SPIRIT_FLAME_SEED,BJOERNSTUFF_ARCHETYPE_COMPANION_ACTION_WILDFIRE_SPIRIT_FIERY_TELEPORTATION</set>
+			<set name="reactions"></set>
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="13" />
@@ -186,7 +190,7 @@ Once you gain access to one of these spells, you always have it prepared, and it
 		</rules>
 	</element>
 	
-	<element name="Flame Seed" type="Companion Action" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_COMPANION_ACTION__WILDFIRE_SPIRIT_FLAME_SEED">
+	<element name="Flame Seed" type="Companion Action" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_COMPANION_ACTION_WILDFIRE_SPIRIT_FLAME_SEED">
 		<description>
 			<p>Requires Your Bonus Action. Ranged Weapon Attack: +4 to hit, range 30 ft., one target you can see. Hit: 1d6 + your PB fire damage.</p>
 		</description>
