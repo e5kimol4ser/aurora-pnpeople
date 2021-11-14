@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Unearthed Arcana: Cleric, Druid, and Wizard</name>
+		<name>Björns Kopie vom Wildfire Druiden</name>
 		<update version="0.0.1">
 			<file name="Circle-of-wild-Fire.xml" url="https://github.com/e5kimol4ser/aurora-pnpeople/blob/Test/subclasses_Stuff/Circle-of-wild-Fire.xml" />
 		</update>

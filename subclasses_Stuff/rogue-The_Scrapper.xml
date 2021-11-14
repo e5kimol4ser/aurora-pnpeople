@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>The Scrapper</name>
+        <description>The Scrapper from Planet Apocalypse</description>
+        <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathar’s Guide to Everything</author>
+            <file name="rogue-The_Scrapper.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/rogue-scout.xml" />
+        </update>
+    </info>
+    <element name="The_Scrapper" type="Archetype" source="Planet Apocalypse" id="ID_HH_PA_ARCHETYPE_THE_SCRAPPER">
+        <supports>Roguish Archetype</supports>
+        <description>
+            <p>The scrapper is a monster hunter who utilizes alchemical traps and tricks to defeat even the most powerful of foes. With no real magic to aid them, the scrapper turns their skills toward the vials, herbs, and strange concoctions of the potion maker’s art. They are masters of preparation and improvisation, able to create potent elixirs and devastating explosives from almost nothing.</p>
+            <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_SKIRMISHER" />
+            <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_SURVIVALIST" />
+            <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_SUPERIOR_MOBILITY" />
+            <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_AMBUSH_MASTER" />
+            <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SCOUT_SUDDEN_STRIKE" />
+        </description>
+        <sheet>
+            <description>Combines stealth with a knack for survival</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_HH_PA_ARCHETYPE_FEATURE_THE_SCRAPPER_QUICK_FINGERS" level="3"/>
+            <grant type="Archetype Feature" id="ID_HH_PA_ARCHETYPE_FEATURE_THE_SCRAPPER_TOOL_IMPROVISATION" level="3"/>
+            <grant type="Archetype Feature" id="ID_HH_PA_ARCHETYPE_FEATURE_THE_SCRAPPER_IMPROVISED_GEAR" level="3"/>
+            <grant type="Archetype Feature" id="ID_HH_PA_ARCHETYPE_FEATURE_THE_SCRAPPER_ALCHEMICAL_TRAP" level="9"/>
+            <grant type="Archetype Feature" id="ID_HH_PA_ARCHETYPE_FEATURE_THE_SCRAPPER_ALCHEMICAl_IMPROVISATION" level="13"/>
+            <grant type="Archetype Feature" id="ID_HH_PA_ARCHETYPE_FEATURE_THE_SCRAPPER_MAGICAL_IMPROVISATION" level="13"/>
+            <grant type="Archetype Feature" id="ID_HH_PA_ARCHETYPE_FEATURE_THE_SCRAPPER_MASTERWORK_GEAR" level="17"/>
+        </rules>
+    </element>
+    <element name="Quick Fingers" type="Archetype Feature" source="Planet Apocalypse" id="ID_HH_PA_ARCHETYPE_FEATURE_THE_SCRAPPER_QUICK_FINGERS">
+        <description>
+            <p>Starting when you take this roguish archetype at 3rd level, you can take the Use an Object action (including using improvised gear) as a bonus action. You can also use tools or activate a common magic item as a bonus action if it would normally require an action.</p>
+        </description>
+        <sheet>
+            <description>Starting when you take this roguish archetype at 3rd level, you can take the Use an Object action (including using improvised gear) as a bonus action. You can also use tools or activate a common magic item as a bonus action if it would normally require an action..</description>
+        </sheet>
+    </element>
+    <element name="Tool Improvisation" type="Archetype Feature" source="Planet Apocalypse" id="ID_HH_PA_ARCHETYPE_FEATURE_THE_SCRAPPER_TOOL_IMPROVISATION">
+        <description>
+            <p>Starting at 3rd level, you become proficient with alchemist’s supplies. If you were already proficient with alchemist’s supplies, you become proficient with any tool of your choice. When you make an ability check using a tool you aren’t proficient with, you add half your proficiency bonus to the check.</p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES" />
+        </rules>
+    </element>
+    <element name="Improvised Gear" type="Archetype Feature" source="Planet Apocalypse" id="ID_HH_PA_ARCHETYPE_FEATURE_THE_SCRAPPER_IMPROVISED_GEAR">
+        <description>
+            <p>Starting at 3rd level, you gain the ability to spend 1 minute to use alchemist’s supplies to create a piece of temporary adventuring gear from the following list that aids you in combat. Once you use this feature a number of times equal to your rogue level, you can’t use it again until you finish a long rest. You always apply your proficiency bonus to attack rolls with adventuring gear, including acid and alchemist’s fire.</p>
+        </description>
+        <sheet display="false">
+            <description>
+            <p>Starting at 3rd level, you gain the ability to spend 1 minute to use alchemist’s supplies to create a piece of temporary adventuring gear from the following list that aids you in combat. Once you use this feature a number of times equal to your rogue level, you can’t use it again until you finish a long rest. You always apply your proficiency bonus to attack rolls with adventuring gear, including acid and alchemist’s fire.<p>
+            <ul>
+                <li><b>Acid</b> You create a vial of temporary acid. It evaporates into harmless gas after 8 hours. The acid damage it  deals on a hit increases to 3d6 at 5th level, 4d6 at 11th level, and 5d6 at 17th level.</li>
+                <li><b>Alchemist’s Fire</b> You create a vial of temporary alchemist’s fire. The save DC is 8 + your proficiency bonus + your  Intelligence modifier (minimum 10). The fire damage increases to 2d4 at 5th level, 3d4 at 11th level,  and 4d4 at 17th level. It congeals into harmless crust after 8 hours.</li>
+                <li><b>Antitoxin</b> You create a vial of temporary antitoxin. It loses its potency after 8 hours. </li>
+                <li><b>Ball Bearings</b> You produce  a handful of spherical crystals that functions as a set of ball bearings. They crumble after 8 hours or  after being walked on.</li>
+                <li><b>Caltrops</b> You grow a handful of sharp crystals that functions as a set of caltrops. They crumble after 8 hours or  after being walked on.</li>
+                <li><b>Elixir of Climbing</b> For 1 hour, the drinker gains a climbing speed equal to their walking speed and has advantage on  Strength (Athletics) checks to climb.</li>
+                <li><b>Elixir of Healing</b> As an action, you may drink the elixir or administer it to a willing or unconscious creature within 5  feet. The elixir restores a number of hit points equal to 2d4 + your Intelligence modifier. This healing  is increased to 4d4 at 5th level, 8d4 at 11th level, and 10d4 at 17th level. Elixirs lose their potency after 8 hours, becoming inert and useless. </li>
+                <li><b>Elixir of Striding and Swimming</b> For 1 hour, the drinker gains a swimming speed equal to their walking speed and has advantage on Strength (Athletics) checks to swim. The drinker can breathe air as well as water. If the drinker  already has a swimming speed greater than their walking speed (or no walking speed), they gain a  walking speed equal to their swimming speed.</li>
+                <li><b>Whitefire. You produce a vial of whitefire</b> As an action, you throw a vial of whitefire at a point you can see  within 40 feet, which erupts with searing fire in a 10-foot-radius sphere centered on the vial. The sphere spreads around corners. Each creature in the area must make a Dexterity saving throw. The  DC is equal to 8 + your proficiency bonus + your Intelligence modifier. A creature takes 2d6 fire  damage on a failed saving throw or half as much damage on a successful one. This damage increases  to 3d6 at 5th level, 4d6 at 11th level, and 5d6 at 17th level. Whitefire loses its potency after 8 hours,   becoming inert and useless.</li>
+            </ul>
+            </description>
+        </sheet>
+    </element>
+    <element name="Alchemical Trap" type="Archetype Feature" source="Planet Apocalypse" id="ID_HH_PA_ARCHETYPE_FEATURE_THE_SCRAPPER_ALCHEMICAL_TRAP">
+        <description>
+            <p>Starting at 9th level, you can make a trap out of a flask of acid, alchemist’s fire, or whitefire. This trap is sensitive to movement and lasts for 24 hours or until triggered. You can place it as an action or bonus 23 Subclasses action. When triggered by a creature stepping on the concealed alchemical item, it exposes the creature to the item, using your attack roll or item save DC. Unless you purposefully made no attempt to hide the trap (in which case detection is automatic), a creature can notice the trap before triggering it with a successful Wisdom (Perception) or Intelligence (Investigation) check. The DC is equal to 8 + your proficiency bonus + your Intelligence modifier. Once you place an alchemical trap, you can’t place another until you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description>Starting at 9th level, you can make a trap out of a flask of acid, alchemist’s fire, or whitefire. This trap is sensitive to movement and lasts for 24 hours or until triggered. You can place it as an action or bonus 23 Subclasses action. When triggered by a creature stepping on the concealed alchemical item, it exposes the creature to the item, using your attack roll or item save DC. Unless you purposefully made no attempt to hide the trap (in which case detection is automatic), a creature can notice the trap before triggering it with a successful Wisdom (Perception) or Intelligence (Investigation) check. The DC is equal to 8 + your proficiency bonus + your Intelligence modifier. Once you place an alchemical trap, you can’t place another until you finish a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Alchemical Improvisation" type="Archetype Feature" source="Planet Apocalypse" id="ID_HH_PA_ARCHETYPE_FEATURE_THE_SCRAPPER_ALCHEMICAl_IMPROVISATION">
+        <description>
+            <p>Beginning at 13th level, you have developed the ability to improvise at a moment’s notice. You may use a bonus action to touch an elixir of healing you created, turning it into a vial of whitefire, though the damage dice are reduced from d6 to d4 and the damage type becomes acid. You may instead touch a vial of whitefire you created, turning it into an elixir of healing, but any creature that drinks it must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. At the end of each of the poisoned creature’s turns, it can make a new saving throw, ending the condition on itself on a success.</p>
+        </description>
+        <sheet >
+            <description><p>Beginning at 13th level, you have developed the ability to improvise at a moment’s notice. You may use a bonus action to touch an elixir of healing you created, turning it into a vial of whitefire, though the damage dice are reduced from d6 to d4 and the damage type becomes acid. You may instead touch a vial of whitefire you created, turning it into an elixir of healing, but any creature that drinks it must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. At the end of each of the poisoned creature’s turns, it can make a new saving throw, ending the condition on itself on a success.</p></description>
+        </sheet>
+    </element>
+        <element name="Magical Improvisation" type="Archetype Feature" source="Planet Apocalypse" id="ID_HH_PA_ARCHETYPE_FEATURE_THE_SCRAPPER_MAGICAL_IMPROVISATION">
+        <description>
+            <p>Also at 13th level, you learn to improvise a potion with 10 minutes of effort using alchemist’s supplies. Once you use this feature, you can’t use it again until you finish a long rest. The potion loses its effectiveness after 8 hours.</p>
+        </description>
+        <sheet >
+            <description>
+            <p>Also at 13th level, you learn to improvise a potion with 10 minutes of effort using alchemist’s supplies. Once you use this feature, you can’t use it again until you finish a long rest. The potion loses its effectiveness after 8 hours.</p>
+            <ul>
+                <li><b>Potion of Invisibility</b> For 1 hour, the drinker becomes invisible. The invisibility ends when the drinker attacks, casts a spell, or forces a creature to make a saving throw.</li>
+                <li><b>Potion of Resistance</b> When you brew this potion, choose acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder. The drinker gains resistance to the chosen type of damage for 1 hour.</li>    
+                <li><b>Potion of Strength</b> For 1 hour, the drinker’s Strength score becomes 21, unless it was already 21 or higher. The granted Strength score increases to 23 at 17th level.</li>
+            </ul>
+            </description>
+        </sheet>
+    </element>
+        <element name="Masterwork Gear" type="Archetype Feature" source="Planet Apocalypse" id="ID_HH_PA_ARCHETYPE_FEATURE_THE_SCRAPPER_MASTERWORK_GEAR">
+        <description>
+            <p>By 17th level you are a master of your craft. When you roll damage or healing for a piece of adventuring gear, including an item you created, you can reroll any number of dice. You must use the new rolls.</p>
+        </description>
+        <sheet >
+            <description><p>By 17th level you are a master of your craft. When you roll damage or healing for a piece of adventuring gear, including an item you created, you can reroll any number of dice. You must use the new rolls.</p></description>
+        </sheet>
+    </element>
+</elements>
