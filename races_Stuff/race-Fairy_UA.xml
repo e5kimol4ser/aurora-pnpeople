@@ -4,7 +4,7 @@
 		<name>Fairy UA</name>
 		<description>Fairy UA Race from Unearthed Arcana 77 - Folk of the Feywild by Hendrik</description>
 		<author url="http://dnd5e.wikidot.com/fairy-ua">DND 5th Edition</author>
-		<update version="0.0.3">
+		<update version="0.0.31">
 			<file name="race-Fairy_UA.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/races_Stuff/race-Fairy_UA.xml" /> <!--Muss noch angepasst werden-->
 		</update>
 	</info>
@@ -55,7 +55,7 @@
 			<description>You know the Druidcraft and Faerie Fire spells. You can cast Faerie Fire without expending a spell slot, and you must finish a long rest before you can cast it this way again. You can also cast this spell using any spell slots you have. Your spellcasting ability for these spells is your choice of Intelligence, Wisdom, or Charisma.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_Druidcraft" />
+			<grant type="Spell" id="ID_PHB_SPELL_DRUIDCRAFT" />
 			<grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" />
 		</rules>
 	</element>
