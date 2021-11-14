@@ -4,7 +4,7 @@
 		<name>feats_Stuff</name>
 		<description>der versuch eine neue feats einzufügen</description>
 		<author>Björn und hendrik Stuff Bisher</author>
-		<update version="0.0.1">
+		<update version="0.0.11">
 			<file name="feats_Stuff.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/feats_Stuff/feats_Stuff.index" />
 		</update>
 	</info>
