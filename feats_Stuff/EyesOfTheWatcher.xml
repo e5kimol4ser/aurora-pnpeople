@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="EyesOfTheWatcher.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/feats_Stuff/EyesOfTheWatcher.xml" />
+		</update>
+	</info>
+	
+	<element name="Eyes of the Watcher(mit +1 Wisdom weil Björn Faul)" type="Feat" source="Apocalypse nach Björn" id="BJOERNSTUFF_FEAT_ABERRANT_DRAGONMARK">
+		<description>
+			
+			<p>Permanently altered by a dream or vision, you manifest an uncanny ability to perceive otherworldly forces. Your eyes change appearance, such as to solid black or tawny orange with cat like slits, granting you the following benefits.</p>
+			<ul>
+				<li>Increase either your Intelligence or Wisdom (here only wisdom) score by 1, to a maximum of 20.</li>
+				<li>You can see invisible and ethereal celestials, elementals, fey, fiends, and undead within 30 feet</li>
+				<li>You have advantage on ability checks and saving throws against visual illusions within 30 feet. When you first observe an illusion from within 30 feet, you instantly recognize it for what it is and become immune to its effects if its save DC or ability check DC is less than or equal to 15 + your modifier on Intelligence (Investigation) checks.</li>
+				<li>You perceive the original form of a celestial, elemental, fey, fiend, or undead within 30 feet that is transformed by magic.</li>
+			</ul>
+		</description>
+		<sheet usage="1/Short Rest">
+			<description>You can see invisible and ethereal celestials, elementals, fey, fiends, and undead within 30 feet</description>
+			<description>You have advantage on ability checks and saving throws against visual illusions within 30 feet. When you first observe an illusion from within 30 feet, you instantly recognize it for what it is and become immune to its effects if its save DC or ability check DC is less than or equal to 15 + your modifier on Intelligence (Investigation) checks.</description>
+			<description>You perceive the original form of a celestial, elemental, fey, fiend, or undead within 30 feet that is transformed by magic.</description>
+		</sheet>
+		<rules>
+			<stat name="wisdom" value="1" />
+			
+		</rules>
+	</element>
+	
+</elements>

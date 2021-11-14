@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>feats_Stuff</name>
+		<description>der versuch eine neue feats einzufügen</description>
+		<author>Björn und hendrik Stuff Bisher</author>
+		<update version="0.0.1">
+			<file name="feats_Stuff.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/feats_Stuff/feats_Stuff.index" />
+		</update>
+	</info>
+	<files>
+		
+		<file name="EyesOfTheWatcher.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/spells_Stuff/EyesOfTheWatcher.xml" />
+		
+	
+	</files>
+</index>
