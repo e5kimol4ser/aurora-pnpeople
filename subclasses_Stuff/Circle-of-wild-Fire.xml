@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Björns Kopie vom Wildfire Druiden</name>
-		<update version="0.0.2">
+		<update version="0.0.21">
 			<file name="Circle-of-wild-Fire.xml" url="https://github.com/e5kimol4ser/aurora-pnpeople/blob/Test/subclasses_Stuff/Circle-of-wild-Fire.xml" />
 		</update>
 	</info>		
@@ -11,24 +11,24 @@
 		<supports>Druid Circle</supports>
 		<description>
 			<p>Druids within the Circle of Wildfire understand that destruction is sometimes the precursor of creation, such as when a forest fire promotes later growth. These druids bond with a primal spirit that harbors both destructive and creative power, allowing the druids to create controlled flames that burn away one thing but give life to another.</p>
-			<div element="BJOERNSTUFF_ARCHETYPE_ARCHETYPE_FEATURE_WILDFIRE_CIRCLE_SPELLS" />
-			<div element="BJOERNSTUFF_ARCHETYPE_ARCHETYPE_FEATURE_WILDFIRE_SUMMON_WILDFIRE_SPIRIT" />
-			<div element="BJOERNSTUFF_ARCHETYPE_ARCHETYPE_FEATURE_WILDFIRE_ENHANCED_BOND" />
-			<div element="BJOERNSTUFF_ARCHETYPE_ARCHETYPE_FEATURE_WILDFIRE_FLAMES_OF_LIFE" />
-			<div element="BJOERNSTUFF_ARCHETYPE_ARCHETYPE_FEATURE_WILDFIRE_BLAZING_ENDURANCE" />
+			<div element="BJOERNSTUFF_ARCHETYPE_FEATURE_WILDFIRE_CIRCLE_SPELLS" />
+			<div element="BJOERNSTUFF_ARCHETYPE_FEATURE_WILDFIRE_SUMMON_WILDFIRE_SPIRIT" />
+			<div element="BJOERNSTUFF_ARCHETYPE_FEATURE_WILDFIRE_ENHANCED_BOND" />
+			<div element="BJOERNSTUFF_ARCHETYPE_FEATURE_WILDFIRE_FLAMES_OF_LIFE" />
+			<div element="BJOERNSTUFF_ARCHETYPE_FEATURE_WILDFIRE_BLAZING_ENDURANCE" />
 		</description>
 		<sheet display="false">
 			<description>Druids who are members of the Circle of Wildfire understand the necessity of destruction, such as how a forest fire promotes growth.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="BJOERNSTUFF_ARCHETYPE_ARCHETYPE_FEATURE_WILDFIRE_CIRCLE_SPELLS" level="2" />
-			<grant type="Archetype Feature" id="BJOERNSTUFF_ARCHETYPE_ARCHETYPE_FEATURE_WILDFIRE_SUMMON_WILDFIRE_SPIRIT" level="2" />
-			<grant type="Archetype Feature" id="BJOERNSTUFF_ARCHETYPE_ARCHETYPE_FEATURE_WILDFIRE_ENHANCED_BOND" level="6" />
-			<grant type="Archetype Feature" id="BJOERNSTUFF_ARCHETYPE_ARCHETYPE_FEATURE_WILDFIRE_FLAMES_OF_LIFE" level="10" />
-			<grant type="Archetype Feature" id="BJOERNSTUFF_ARCHETYPE_ARCHETYPE_FEATURE_WILDFIRE_BLAZING_ENDURANCE" level="14" />
+			<grant type="Archetype Feature" id="BJOERNSTUFF_ARCHETYPE_FEATURE_WILDFIRE_CIRCLE_SPELLS" level="2" />
+			<grant type="Archetype Feature" id="BJOERNSTUFF_ARCHETYPE_FEATURE_WILDFIRE_SUMMON_WILDFIRE_SPIRIT" level="2" />
+			<grant type="Archetype Feature" id="BJOERNSTUFF_ARCHETYPE_FEATURE_WILDFIRE_ENHANCED_BOND" level="6" />
+			<grant type="Archetype Feature" id="BJOERNSTUFF_ARCHETYPE_FEATURE_WILDFIRE_FLAMES_OF_LIFE" level="10" />
+			<grant type="Archetype Feature" id="BJOERNSTUFF_ARCHETYPE_FEATURE_WILDFIRE_BLAZING_ENDURANCE" level="14" />
 		</rules>
 	</element>
-	<element name="Circle Spells" type="Archetype Feature" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_ARCHETYPE_FEATURE_WILDFIRE_CIRCLE_SPELLS">
+	<element name="Circle Spells" type="Archetype Feature" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_FEATURE_WILDFIRE_CIRCLE_SPELLS">
 		<description>
 			<p><em>2nd-level Circle of Wildfire feature</em></p>
 			<p>When you join this circle at 2nd level, you have formed a bond with a wildfire spirit, a primal being of creation and destruction. Your link with this spirit grants you access to some spells when you reach certain levels in this class, as shown on the Circle of Wildfire Spells table.
@@ -61,7 +61,7 @@ Once you gain access to one of these spells, you always have it prepared, and it
 			<grant type="Spell" id="ID_PHB_SPELL_MASS_CURE_WOUNDS" level="9" spellcasting="Druid" prepared="true" />
 		</rules>
 	</element>
-	<element name="Summon Wildfire Spirit" type="Archetype Feature" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_ARCHETYPE_FEATURE_WILDFIRE_SUMMON_WILDFIRE_SPIRIT">
+	<element name="Summon Wildfire Spirit" type="Archetype Feature" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_FEATURE_WILDFIRE_SUMMON_WILDFIRE_SPIRIT">
 		<description>
 			<p><em>2nd-level Circle of Wildfire feature</em></p>
 			<p>You can summon the primal spirit bound to your soul. As an action, you can expend one use of your Wild Shape feature to summon your wildfire spirit, rather than assuming a beast form.</p>
@@ -102,7 +102,7 @@ Once you gain access to one of these spells, you always have it prepared, and it
 			<select type="Companion" name="Wildfire Spirit" supports="Wildfire Spirit" default="BJOERNSTUFF_ARCHETYPE_COMPANION_WILDFIRE_SPIRIT_SPIRIT" />
 		</rules>
 	</element>
-	<element name="Enhanced Bond" type="Archetype Feature" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_ARCHETYPE_FEATURE_WILDFIRE_ENHANCED_BOND">
+	<element name="Enhanced Bond" type="Archetype Feature" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_FEATURE_WILDFIRE_ENHANCED_BOND">
 		<description>
 			<p><em>6th-level Circle of Wildfire feature</em></p>
 			<p>At 6th level, the bond with your wildfire spirit enhances your destructive and restorative spells. Whenever you cast a spell that deals fire damage or restores hit points while your wildfire spirit is summoned, roll a d8, and you gain a bonus equal to the number rolled to one damage or healing roll of the spell.</p>
@@ -113,7 +113,7 @@ Once you gain access to one of these spells, you always have it prepared, and it
 			In addition, when you cast a spell with a range other than self, the spell can originate from you or your wildfire spirit.</description>
 		</sheet>
 	</element>
-	<element name="Cauterizing Flames" type="Archetype Feature" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_ARCHETYPE_FEATURE_WILDFIRE_FLAMES_OF_LIFE">
+	<element name="Cauterizing Flames" type="Archetype Feature" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_FEATURE_WILDFIRE_FLAMES_OF_LIFE">
 		<description>
 			<p><em>10th-level Circle of Wildfire feature</em></p>
 			<p>At 10th level, you gain the ability to turn death into magical flames that can heal or incinerate. When a Small or larger creature dies within 30 feet of you or your wildfire spirit, a harmless spectral flame springs forth in the dead creature's space and flickers there for 1 minute. When a creature you can see enters that space, you can use your reaction to extinguish the spectral flame there and either heal the creature or deal fire damage to it. The healing or damage equals 2d10 + your Wisdom modifier.</p>
@@ -127,7 +127,7 @@ Once you gain access to one of these spells, you always have it prepared, and it
 			<stat name="Cauterizing Flames:usage" value="wisdom:modifier" bonus="base" />
 		</rules>
 	</element>
-	<element name="Blazing Revival" type="Archetype Feature" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_ARCHETYPE_FEATURE_WILDFIRE_BLAZING_ENDURANCE">
+	<element name="Blazing Revival" type="Archetype Feature" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_FEATURE_WILDFIRE_BLAZING_ENDURANCE">
 		<description>
 			<p><em>14th-level Circle of Wildfire feature</em></p>
 			<p> the bond with your wildfire spirit can save you from death. If the spirit is within 120 feet of you when you are reduced to 0 hit points and thereby fall unconscious, you can cause the spirit to drop to 0 hit points. You then regain half your hit points and immediately rise to your feet.</p>
@@ -141,7 +141,7 @@ Once you gain access to one of these spells, you always have it prepared, and it
 	<!-- Companion -->
 	<element name="Wildfire Spirit" type="Companion" source="Björn Input Tashas Cauldron of Everything" id="BJOERNSTUFF_ARCHETYPE_COMPANION_WILDFIRE_SPIRIT">
 		<supports>Wildfire Spirit</supports>
-		<requirements>BJOERNSTUFF_ARCHETYPE_ARCHETYPE_CIRCLE_OF_WILDFIRE</requirements>
+		<requirements>BJOERNSTUFF_ARCHETYPE_CIRCLE_OF_WILDFIRE</requirements>
 		<setters>
 			<set name="strength">10</set>
 			<set name="dexterity">14</set>
