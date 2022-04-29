@@ -3,7 +3,7 @@
 	<info>
 		<name>Björn kopierter Undead Patron for Warlock</name>
 		<update version="0.0.23">
-			<file name="The-Undead.xml" url="https://github.com/Kaffeebohne/aurora-pnpeople/blob/Test/subclasses_Stuff/The-Undead.xml" />
+			<file name="The-Undead.xml" url="https://github.com/e5kimol4ser/aurora-pnpeople/blob/Test/subclasses_Stuff/The-Undead.xml" />
 		</update>
 	</info>	
 	<element name="The Undead" type="Archetype" source="Björn Input Tashas Cauldron of Everthing" id="BJOERNSTUFF_ARCHETYPE_WARLOCK_THE_UNDEAD">

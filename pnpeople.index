@@ -3,9 +3,9 @@
 	<info>
 		<name>PnPeople</name>
 		<description>Our custom content</description>
-		<author>Kaffeebohne</author>
+		<author>e5kimol4ser</author>
 		<update version="0.0.34">
-			<file name="pnpeople.index" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/pnpeople.index" />
+			<file name="pnpeople.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/pnpeople.index" />
 		</update>
 	</info>
 	<files>
@@ -19,17 +19,17 @@
     	<file name="20160912.xml" url="https://raw.githubusercontent.com/NickVendel/elements/revised-ranger-branch/unearthed-arcana/2016/20160912.xml" />
 		
 	<!-- our subclasses Stuff-->
-		<file name="subclasses_Stuff.index" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/subclasses_Stuff/subclasses_Stuff.index" />
+		<file name="subclasses_Stuff.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/subclasses_Stuff/subclasses_Stuff.index" />
 <!-- our races Stuff-->
-		<file name="races_Stuff.index" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/races_Stuff/races_Stuff.index" />
+		<file name="races_Stuff.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/races_Stuff/races_Stuff.index" />
 
 		<!-- our races Stuff-->
-		<file name="spells_Stuff.index" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/spells_Stuff/spells_Stuff.index" />
+		<file name="spells_Stuff.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/spells_Stuff/spells_Stuff.index" />
 
 		<!-- our feats Stuff-->
-		<file name="feats_Stuff.index" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/feats_Stuff/feats_Stuff.index" />
+		<file name="feats_Stuff.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/feats_Stuff/feats_Stuff.index" />
 
 		<!-- items -->
-			<file name="items_Stuff.index" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/items_Stuff/items_Stuff.index" />
+			<file name="items_Stuff.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/items_Stuff/items_Stuff.index" />
 	</files>
 </index>
