@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="ArcaneGrimoire.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/items_Stuff/ArcaneGrimoire.xml" />
 		</update>
 	</info>
@@ -28,7 +28,7 @@
 	<element name="Arcane Grimoire +2" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_DR_TCE_ARCANE_GRIMOIRE_2">
 		<description>
 			<p>While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a bonus to spell attack rolls and to the saving throw DCs of your wizard spells. The bonus is determined by the book's rarity.</p>
-            <p class="indent">You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 2.</p>
+            <p class="indent">You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1.</p>
 		</description>
 		<setters>
 			<set name="keywords">spellcasting focus, wizard, spell attack rolls, saving throw, Arcane Recovery</set>
@@ -47,7 +47,7 @@
 	<element name="Arcane Grimoire +3" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_DR_TCE_ARCANE_GRIMOIRE_3">
 		<description>
 			<p>While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a bonus to spell attack rolls and to the saving throw DCs of your wizard spells. The bonus is determined by the book's rarity.</p>
-            <p class="indent">You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 3.</p>
+            <p class="indent">You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1.</p>
 		</description>
 		<setters>
 			<set name="keywords">spellcasting focus, wizard, spell attack rolls, saving throw, Arcane Recovery</set>
