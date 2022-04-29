@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.5">
+			<file name="Bottles.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/items_Stuff/Bottles.xml" />
+		</update>
+	</info>
+	
+	<element name="Bottle of Boundless Coffee" type="Magic Item" source="Strixhaven: A Curriculum of Chaos" id="ID_DR_SCC_BOTTLE_BOUNDLESS_COFFEE">
+		<description>
+			<p>This metal bottle carries delicious, warm coffee. The bottle comes with a stopper, which is attached to the bottle by a little chain. Even when open, the bottle won't accept any liquid other than the coffee it produces. The coffee inside is always comfortably warm, and none of the heat can be felt through the bottle.</p>
+			<p class="indent">Each time you drink the coffee, roll a d20. On a 1, the bottle refuses to dispense coffee for the next hour. If you pour coffee from the bottle, rather than drinking from it, the coffee vanishes the moment it leaves the bottle.</p>
+		</description>
+		<setters>
+			<set name="keywords">Yummy, Coffee, Bottle</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+</elements>

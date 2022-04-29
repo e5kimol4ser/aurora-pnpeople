@@ -4,7 +4,7 @@
 		<name>PnPeople</name>
 		<description>Our custom content</description>
 		<author>e5kimol4ser</author>
-		<update version="0.0.33">
+		<update version="0.0.34">
 			<file name="pnpeople.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/pnpeople.index" />
 		</update>
 	</info>
@@ -29,6 +29,7 @@
 		<!-- our feats Stuff-->
 		<file name="feats_Stuff.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/feats_Stuff/feats_Stuff.index" />
 
-
+		<!-- items -->
+			<file name="items_Stuff.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/items_Stuff/items_Stuff.index" />
 	</files>
 </index>
