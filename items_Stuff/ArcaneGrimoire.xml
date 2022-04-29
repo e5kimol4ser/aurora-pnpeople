@@ -20,9 +20,6 @@
 			<set name="rarity">Uncommon</set>
             <set name="attunement">true</set>
 		</setters>
-		<rules>
-            <stat name="wizard:spellcasting:slot:recovery" value="1"/>
-		</rules>
 	</element>
 	<element name="Arcane Grimoire +2" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_DR_TCE_ARCANE_GRIMOIRE_2">
 		<description>
@@ -38,9 +35,6 @@
 			<set name="rarity">Rare</set>
             <set name="attunement">true</set>
 		</setters>
-		<rules>
-            <stat name="wizard:spellcasting:slot:recovery" value="2"/>
-		</rules>
 	</element>
 	<element name="Arcane Grimoire +3" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_DR_TCE_ARCANE_GRIMOIRE_3">
 		<description>
@@ -56,9 +50,6 @@
 			<set name="rarity">Very Rare</set>
             <set name="attunement">true</set>
 		</setters>
-		<rules>
-            <stat name="wizard:spellcasting:slot:recovery" value="3"/>
-		</rules>
 	</element>
 	
 </elements>
