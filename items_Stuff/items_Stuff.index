@@ -5,11 +5,11 @@
 		<description>Items fuer die PnP Runde</description>
 		<author>David aka Jochen</author>
 		<update version="0.0.5">
-			<file name="items_Stuff.index" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/items_Stuff/items_Stuff.index" />
+			<file name="items_Stuff.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/items_Stuff/items_Stuff.index" />
 		</update>
 	</info>
 	<files>
-			<file name="ArcaneGrimoire.xml" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/items_Stuff/ArcaneGrimoire.xml" />
-			<file name="Bottles.xml" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/items_Stuff/Bottles.xml" />
+			<file name="ArcaneGrimoire.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/items_Stuff/ArcaneGrimoire.xml" />
+			<file name="Bottles.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/items_Stuff/Bottles.xml" />
 	</files>
 </index>

@@ -5,12 +5,12 @@
 		<description>der versuch eine neue feats einzufügen</description>
 		<author>Björn und hendrik Stuff Bisher</author>
 		<update version="0.0.11">
-			<file name="feats_Stuff.index" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/feats_Stuff/feats_Stuff.index" />
+			<file name="feats_Stuff.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/feats_Stuff/feats_Stuff.index" />
 		</update>
 	</info>
 	<files>
 		
-		<file name="EyesOfTheWatcher.xml" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/feats_Stuff/EyesOfTheWatcher.xml" />
+		<file name="EyesOfTheWatcher.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/feats_Stuff/EyesOfTheWatcher.xml" />
 		
 	
 	</files>

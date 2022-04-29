@@ -5,12 +5,12 @@
 		<description>der versuch eine neue spells einzufügen</description>
 		<author>Björn und hendrik Stuff Bisher</author>
 		<update version="0.0.1">
-			<file name="spells_Stuff.index" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/spells_Stuff/spells_Stuff.index" />
+			<file name="spells_Stuff.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/spells_Stuff/spells_Stuff.index" />
 		</update>
 	</info>
 	<files>
 		
-		<file name="spellsDruidApocalypse.xml" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/spells_Stuff/spellsDruidApocalypse.xml" />
+		<file name="spellsDruidApocalypse.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/spells_Stuff/spellsDruidApocalypse.xml" />
 		
 	
 	</files>
