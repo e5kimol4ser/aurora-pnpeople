@@ -5,14 +5,14 @@
 		<description>der versuch eine neue subklassen einzufügen</description>
 		<author>Björn Stuff Bisher</author>
 		<update version="0.0.22">
-			<file name="subclasses_Stuff.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/subclasses_Stuff/subclasses_Stuff.index" />
+			<file name="subclasses_Stuff.index" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/subclasses_Stuff/subclasses_Stuff.index" />
 		</update>
 	</info>
 	<files>
 		
-		<file name="The-Undead.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/subclasses_Stuff/The-Undead.xml" />
-		<file name="Circle-of-wild-Fire.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/subclasses_Stuff/Circle-of-wild-Fire.xml" />
-		<file name="rogue-The_Scrapper.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/subclasses_Stuff/rogue-The_Scrapper.xml" />
+		<file name="The-Undead.xml" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/subclasses_Stuff/The-Undead.xml" />
+		<file name="Circle-of-wild-Fire.xml" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/subclasses_Stuff/Circle-of-wild-Fire.xml" />
+		<file name="rogue-The_Scrapper.xml" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/subclasses_Stuff/rogue-The_Scrapper.xml" />
 	
 	</files>
 </index>

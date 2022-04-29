@@ -4,4 +4,4 @@ Go to the _Additional Content_ tab in Aurora, enter the URL of the index file, a
 
 More information about extending the content can be found [here](http://aurorabuilder.com/content/ "Additional Content").
 
-`https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/pnpeople.index`
+`https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/pnpeople.index`

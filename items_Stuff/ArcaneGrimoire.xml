@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.2">
-			<file name="ArcaneGrimoire.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/items_Stuff/ArcaneGrimoire.xml" />
+		<update version="0.0.3">
+			<file name="ArcaneGrimoire.xml" url="https://raw.githubusercontent.com/Kaffeebohne/aurora-pnpeople/master/items_Stuff/ArcaneGrimoire.xml" />
 		</update>
 	</info>
 	
@@ -20,6 +20,10 @@
 			<set name="rarity">Uncommon</set>
             <set name="attunement">true</set>
 		</setters>
+		<rules>
+			<state name="strength:save:dc" value="1"/>
+			<state name="strength:spell:attack" value="1"/>
+		</rules>
 	</element>
 	<element name="Arcane Grimoire +2" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_DR_TCE_ARCANE_GRIMOIRE_2">
 		<description>
@@ -35,6 +39,10 @@
 			<set name="rarity">Rare</set>
             <set name="attunement">true</set>
 		</setters>
+		<rules>
+			<state name="strength:save:dc" value="1"/>
+			<state name="strength:spell:attack" value="1"/>
+		</rules>
 	</element>
 	<element name="Arcane Grimoire +3" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_DR_TCE_ARCANE_GRIMOIRE_3">
 		<description>
@@ -50,6 +58,10 @@
 			<set name="rarity">Very Rare</set>
             <set name="attunement">true</set>
 		</setters>
+		<rules>
+			<state name="strength:save:dc" value="1"/>
+			<state name="strength:spell:attack" value="1"/>
+		</rules>
 	</element>
 	
 </elements>
