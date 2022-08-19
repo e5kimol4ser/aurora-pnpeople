@@ -4,14 +4,14 @@
 		<name>races_Stuff</name>
 		<description>der versuch eine neue race einzufügen</description>
 		<author>Björn Stuff Bisher</author>
-		<update version="0.0.12">
+		<update version="0.0.13">
 			<file name="races_Stuff.index" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/races_Stuff/races_Stuff.index" />
 		</update>
 	</info>
 	<files>
 		
 		<file name="race-Fairy_UA.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/races_Stuff/race-Fairy_UA.xml" />
-		
+		<file name="race-GIFF_UA.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/races_Stuff/race-GIFF_UA.xml" />
 	
 	</files>
 </index>

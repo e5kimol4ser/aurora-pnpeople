@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Giff (UA)</name>
+		<description>Giff (UA) Race from Unearthed Arcana 80 - Travelers of the Multiverse by Hendrik</description>
+		<author url="http://dnd5e.wikidot.com/giff-ua">DND 5th Edition</author>
+		<update version="0.0.31">
+			<file name="race-GIFF_UA.xml" url="https://raw.githubusercontent.com/e5kimol4ser/aurora-pnpeople/master/races_Stuff/race-GIFF_UA.xml" /> <!--Muss noch angepasst werden-->
+		</update>
+	</info>
+
+	<element name="GIFF UA" type="Race" source="Unearthed Arcana 80 - Travelers of the Multiverse by Hendrik" id="ID_HH_TotM_RACE_GIFF">
+		<description>
+			<p>Giff are tall, broad-shouldered folk with hippo-like features. Some have smooth skin, while others have short bristles on their faces and the tops of their heads. As beings of impressive size and unforgettable appearance, giff are noticed wherever they go.Storytelling is a rich tradition among giff, and it’s not uncommon to see a giff recounting their past exploits to an enraptured crowd. Having a friendly giff nearby when a tavern brawl erupts can also be useful, for a giff can usually more than hold their own when pleasant revelry devolves into fisticuffs.The giff are split into two camps concerning how their name is pronounced. Half of them say it with a hard g, half with a soft g. Disagreements over the correct pronunciation often blossom into hard feelings, loud arguments, and headbutting contests, but rarely escalate beyond that.</p>
+
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Increase one ability score by 2, and increase a different one by 1.</p>
+			<p class="indent"><b><i>Age. </i></b>Normal</p>
+			<p class="indent"><b><i>Alignment. </i></b>K.P</p>
+			<p class="indent"><b><i>Size. </i></b>Your size is Medium.</p>
+			<p class="indent"><b><i>Speed. </i></b>Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
+			<p class="indent"><b><i>Damage Dealer </i></b>Like a hippopotamus in a crystal wareshop, you are naturally adept at damaging things. When you roll a 1 on a damage die for a melee attack, you can reroll the die and use the new roll. You can do so no more than once per turn.</p>
+			<p class="indent"><b><i>Hippo Build </i></b>You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+			<p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase, Giff" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_CONSTITUTION|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA" number="1" />
+			<select type="Racial Trait" name="Ability Score Increase (Giff)" supports="Giff" number="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<stat name="innate speed:swim" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Racial Trait" id="ID_HH_TotM_RACIAL_TRAIT_GIFF_DAMAGE_DEALER" />
+			<grant type="Racial Trait" id="ID_HH_TotM_RACIAL_TRAIT_GIFF_HIPPO_BUILD" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<select type="Language" name="Language (GIFF)" supports="Standard||Exotic" number="1" />
+		</rules>
+	</element>
+	<element name="Damage Dealer" type="Racial Trait" source="Travelers of the Multiverse by Hendrik" id="ID_HH_TotM_RACIAL_TRAIT_GIFF_DAMAGE_DEALER">
+		<description>
+			<p>Like a hippopotamus in a crystal wareshop, you are naturally adept at damaging things. When you roll a 1 on a damage die for a melee attack, you can reroll the die and use the new roll. You can do so no more than once per turn.</p>
+		</description>
+		<sheet>
+			<description>Like a hippopotamus in a crystal wareshop, you are naturally adept at damaging things. When you roll a 1 on a damage die for a melee attack, you can reroll the die and use the new roll. You can do so no more than once per turn.</description>
+		</sheet>
+	</element>
+	<element name="Hippo Build" type="Racial Trait" source="Travelers of the Multiversed by Hendrik" id="ID_HH_TotM_RACIAL_TRAIT_GIFF_HIPPO_BUILD">
+		<description>
+			<p>You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+		</description>
+		<sheet display="false">
+			<description>You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+		</sheet>
+	</element>
+
+<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Travelers of the Multiversed by Hendrik" id="ID_RACIAL_TRAIT_GIFF_HH_STRENGTH">
+		<compendium display="false" />
+		<supports>GIFF</supports>
+		<description>
+			<p>Your Strength score increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="strength" value="2"/>
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Travelers of the Multiversed by Hendrik" id="ID_RACIAL_TRAIT_GIFF_HH_DEXTERITY">
+		<compendium display="false" />
+		<supports>GIFF</supports>
+		<description>
+			<p>Your Dexterity score increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="dexterity" value="2"/>
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Travelers of the Multiversed by Hendrik" id="ID_RACIAL_TRAIT_GIFF_HH_CONSTITUTION">
+		<compendium display="false" />
+		<supports>GIFF</supports>
+		<description>
+			<p>Your Constitution score increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="constitution" value="2"/>
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Travelers of the Multiversed by Hendrik" id="ID_RACIAL_TRAIT_GIFF_HH_INTELLIGENCE">
+		<compendium display="false" />
+		<supports>GIFF</supports>
+		<description>
+			<p>Your Intelligence score increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="intelligence" value="2"/>
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Travelers of the Multiversed by Hendrik" id="ID_RACIAL_TRAIT_GIFF_HH_WISDOM">
+		<compendium display="false" />
+		<supports>GIFF</supports>
+		<description>
+			<p>Your Wisdom score increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="wisdom" value="2"/>
+		</rules>
+	</element>
+		<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Travelers of the Multiversed by Hendrik" id="ID_RACIAL_TRAIT_GIFF_HH_CHARISMA">
+		<compendium display="false" />
+		<supports>GIFF</supports>
+		<description>
+			<p>Your Charisma score increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="charisma" value="2"/>
+		</rules>
+	</element>
+
+</elements>
