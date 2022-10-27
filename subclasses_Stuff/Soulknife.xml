@@ -2,24 +2,17 @@
 <elements>
 	<info>
 		<name>Rogue: Soulknife</name>
-		<update version="0.0.1">
+		<update version="0.0.3">
 			<file name="Soulknife.xml" url="https://github.com/e5kimol4ser/aurora-pnpeople/blob/Test/subclasses_Stuff/Soulknife.xml" />
 			<description>Release Soulknife von Hendrik</description>
 		</update>
 	</info>	
-	<element name="Rogue: Soulknife" type="Source" source="Tasha's Cauldron of Everything" id="ID_HH_SOURCE_TCoE">
-		<description>
-			<p>Shine with the power of the mind in this installment of Unearthed Arcana! Today we revisit several psi-themed options that we released in the past few months. Studying your feedback on those options, we’ve crafted this new collection of subclasses, spells, and feats.</p>
-		</description>
-	</element>
-
 	<element name="Soulknife" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_HH_SOURCE_TCoE">
 		<supports>Roguish Archetype</supports>
 		<description>
 			<p>Most assassins strike with physical weapons, and many burglars and spies use thieves’ tools to infiltrate secure locations, whereas a Soulknife strikes and infiltrates with the mind, cutting through barriers both physical and psychic. These rogues discover psionic power within themselves and channel it to do their roguish work. They find easy employment as members of thieves’ guilds, though they are often mistrusted by rogues who are leery of anyone using strange mind powers to conduct their business, and most governments would be happy to employ a Soulknife as a spy.</p>
 			<p class="indent">Amid the trees of ancient forests on the Material Plane and in the Feywild, some wood elves walk the path of the Soulknife, serving as silent, lethal guardians of their woods. In the endless war among the gith, a githzerai is encouraged to become a Soulknife when stealth is required against the githyanki foe, and in the world of Athas, a Sorcerer-King often turns to a Soulknife to eliminate an enemy, just as an insurgent Soulknife seeks to undermine that Sorcerer-King’s rule.</p>
 			<p class="indent">As a Soulknife, your psionic abilities might have haunted you since you were a child, only revealing their potential as you experienced the stress of adventure. Or you might have sought out a reclusive order of psionic adepts and spent years learning how to manifest your power.</p>
-			<div element="ID_HH_SOURCE_TCoE_ARCHETYPE_FEATURE_SOULKNIFE_PSIONIC_POWER" />
 			<div element="ID_HH_SOURCE_TCoE_ARCHETYPE_FEATURE_SOULKNIFE_PSYCHIC_BLADES" />
 			<div element="ID_HH_SOURCE_TCoE_ARCHETYPE_FEATURE_SOULKNIFE_SOUL_BLADES" />
 			<div element="ID_HH_SOURCE_TCoE_ARCHETYPE_FEATURE_SOULKNIFE_PSIONIC_VEIL" />
@@ -44,8 +37,10 @@
 			</ul>
 			<br />
 		</description>
+		<sheet>
+			<description>Starting at 3rd level, you harbor a wellspring of psionic energy within yourself. This energy is represented by your Psionic Energy dice, which are each a d6. You have a number of these dice equal to twice your proficiency bonus, and they fuel various psionic powers you have, which are detailed below. Some of your powers expend the Psionic Energy die they use, as specified in a power's description, and you can't use a power if it requires you to use a die when your dice are all expended. You regain all your expended Psionic Energy dice when you finish a long rest. In addition, as a bonus action, you can regain one expended Psionic Energy die, but you can't do so again until you finish a short or long rest. When you reach certain levels in this class, the size of your Psionic Energy dice increases: at 5th level (d8), 11th level (d10), and 17th level (d12). The powers below use your Psionic Energy dice.</description>
+		</sheet>
 		<rules>
-			<grant type="Grants" id="ID_HH_SOURCE_TCoE_GRANTS_PSIONIC_TALENT_FEATURE" />
 			<stat name="ua:psionic-talent-die:size" value="6" bonus="base" />
 			<stat name="ua:psionic-talent-die:size" value="8" bonus="base" level="5" />
 			<stat name="ua:psionic-talent-die:size" value="10" bonus="base" level="11" />
@@ -87,7 +82,9 @@
 				<li><strong>Psychic Teleportation.</strong> As a bonus action, you manifest one of your Psychic Blades, expend one Psionic Energy die and roll it, and throw the blade at an unoccupied space you can see, up to a number of feet away equal to 10 times the number rolled. You then teleport to that space, and the blade vanishes.</li>
 			</ul>
 		</description>
-		<sheet display="false" />
+		<sheet>
+			<description> Starting at 9th level, your Psychic Blades are now an expression of your psi-suffused soul, giving you these powers that use your Psionic Energy dice:</description>
+		</sheet>
 		<rules>
 			<grant type="Archetype Feature" id="ID_HH_SOURCE_TCoE_ARCHETYPE_FEATURE_SOULKNIFE_SOUL_BLADES_HOMING_STRIKES" />
 			<grant type="Archetype Feature" id="ID_HH_SOURCE_TCoE_ARCHETYPE_FEATURE_SOULKNIFE_SOUL_BLADES_PSYCHIC_TELEPORTATION" />
