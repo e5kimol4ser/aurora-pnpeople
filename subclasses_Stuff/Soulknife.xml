@@ -25,7 +25,6 @@
 			<div element="ID_HH_SOURCE_TCoE_ARCHETYPE_FEATURE_SOULKNIFE_PSIONIC_VEIL" />
 			<div element="ID_HH_SOURCE_TCoE_ARCHETYPE_FEATURE_SOULKNIFE_REND_MIND" />
 		</description>
-		<sheet display="false" />
 		<rules>
 			<grant type="Archetype Feature" id="ID_HH_SOURCE_TCoE_ARCHETYPE_FEATURE_SOULKNIFE_PSIONIC_TALENT" level="3" />
 			<grant type="Archetype Feature" id="ID_HH_SOURCE_TCoE_ARCHETYPE_FEATURE_SOULKNIFE_PSYCHIC_BLADES" level="3" />
